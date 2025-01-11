@@ -61,7 +61,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex items-center gap-1 text-[#666666] mb-4">
-                    <IoLocationOutline className="text-lg" />
+                    <IoLocationOutline className="text-lg text-blue-500 block lg:hidden " />
                     <span>{hotel.location}</span>
                   </div>
 
